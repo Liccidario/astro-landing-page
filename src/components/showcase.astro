@@ -2,6 +2,13 @@
 import ContentSection from "~/components/content-section.astro";
 import ShowcaseCard from "~/components/showcase-card.astro";
 import sites from "~/data/showcase/sites.json";
+import * as React from 'react';
+import Button from '@mui/material/Button';
+
+function App() {
+  return <Button variant="contained">Hello World</Button>;
+}
+
 ---
 
 <ContentSection title="Showcase" id="showcase">
